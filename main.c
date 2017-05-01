@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 #include "pthread.h"
-struct readInfo{
-  long i;
-  double x;
-  long Inter;
-  int ind;
-};
 
 pthread_t tid[4];
 long cantidadIntervalos = 1000000000;
